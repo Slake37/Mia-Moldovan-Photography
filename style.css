@@ -182,13 +182,15 @@ textarea{
 }
 
 .btn{
+    display: inline-block;
     background-color: rgb(245, 3, 3);
     color:#fff;
     border:none;
     padding:0.5rem 2rem;
     max-width: 50%;
     text-decoration: none;
-    margin-bottom:2rem;
+    margin-bottom:5rem;
+    margin-left:5rem;
 }
 
 .gallery{
@@ -265,6 +267,7 @@ textarea{
     width:90vw;
     margin:2rem auto;
     display: flex;
+    flex-wrap: wrap;
    justify-content: center;
     
 }
