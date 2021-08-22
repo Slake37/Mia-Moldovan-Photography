@@ -495,13 +495,13 @@ textarea{
         font-size: 2rem;
     }
 
-    .logo{
-        width:25%;
+   a.logo {
+        width:30%;
         
     }
 
     .logo p{
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
 
     .hero-text h2{
