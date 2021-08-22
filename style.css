@@ -51,6 +51,7 @@ body{
 }
 
 .navigation ul{
+    z-index: 5;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -168,12 +169,12 @@ body{
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    margin:2rem auto;
+    margin:1rem auto;
 }
 
 .my-form h2{
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 input{
@@ -193,8 +194,28 @@ textarea{
     padding:0.5rem 2rem;
     max-width: 50%;
     text-decoration: none;
-    margin-bottom:5rem;
+    margin-bottom:1rem;
     margin-left:5rem;
+}
+
+.social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.social a{
+    
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0;
+    background: transparent;
+    margin:1.5rem;
+}
+
+.social a:hover{
+    background: transparent;
+    color:rgb(245, 3, 3);
 }
 
 .gallery{
@@ -343,7 +364,7 @@ textarea{
     .navigation ul{
         width:100%;
         position:fixed;
-        bottom:10%;
+        bottom:5%;
         left:50%;
         transform:translateX(-50%);
         font-size: 1rem;
@@ -423,4 +444,456 @@ textarea{
         align-items: center;
         max-height: 80vh;
     }
+
+    .social{
+        
+        bottom:50px;
+        left:-25px;
+    }
+
+    .btn{
+        margin-top:0;
+    }
 }
+
+@media screen and (max-width: 375px){
+    .container{
+        margin:0;
+        height: 100vh;
+        padding: 0 1rem;
+    }
+    .hero{
+        padding:0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .hero img{
+        display: none;
+    }
+
+    .home{
+        background-image: url(./img/Backgrounds/heroBackground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .photo-group{
+        display: none;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hero-text h1{
+        margin-top:1rem;
+        font-size: 2rem;
+    }
+
+    .logo{
+        width:25%;
+        
+    }
+
+    .logo p{
+        font-size: 0.5rem;
+    }
+
+    .hero-text h2{
+        font-size: 1rem;
+    }
+    
+    .navigation ul{
+        width:100%;
+        position:fixed;
+        bottom:5%;
+        left:50%;
+        transform:translateX(-50%);
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation a{
+        display:inline-block;
+        font-size: 0.6rem;
+    }
+
+    .navigation li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .hero-text p{
+        font-size: 0.8rem;
+    }
+
+    .hero-text img{
+        width:25%;
+    }
+
+    .hero-text .services-list li{
+        font-size: 0.9rem;
+    }
+
+    .hero-text .services-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 50vh;
+    }
+
+    .hero-text .services-list ul{
+        margin:0;
+    }
+
+    .gallery{
+        padding:1rem 0;
+        max-height: 80vh;
+        grid-template-columns: 1fr 1fr;
+        gap:0.1rem;
+    }
+
+    .gallery .gallery-element{
+        width:80%;
+        height:80%;
+    }
+
+    .gallery .gallery-element p{
+        font-size: 0.5rem;
+    }
+
+    .photo-gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .my-form h2{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 80vh;
+    }
+
+    .social{
+        
+        bottom:50px;
+        left:-25px;
+    }
+
+    .btn{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        margin:0;
+        height: 100vh;
+        padding: 0 1rem;
+    }
+    .hero{
+        padding:0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .hero img{
+        display: none;
+    }
+
+    .home{
+        background-image: url(./img/Backgrounds/heroBackground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .photo-group{
+        display: none;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hero-text h1{
+        margin-top:1rem;
+        font-size: 2rem;
+    }
+
+    .logo{
+        width:25%;
+        
+    }
+
+    .logo p{
+        font-size: 0.5rem;
+    }
+
+    .hero-text h2{
+        font-size: 1rem;
+    }
+    
+    .navigation ul{
+        width:100%;
+        position:fixed;
+        bottom:5%;
+        left:50%;
+        transform:translateX(-50%);
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation a{
+        display:inline-block;
+        font-size: 0.6rem;
+    }
+
+    .navigation li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .hero-text p{
+        font-size: 0.8rem;
+    }
+
+    .hero-text img{
+        width:25%;
+    }
+
+    .hero-text .services-list li{
+        font-size: 0.9rem;
+    }
+
+    .hero-text .services-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 50vh;
+    }
+
+    .hero-text .services-list ul{
+        margin:0;
+    }
+
+    .gallery{
+        padding:1rem 0;
+        max-height: 80vh;
+        grid-template-columns: 1fr 1fr;
+        gap:0.1rem;
+    }
+
+    .gallery .gallery-element{
+        width:80%;
+        height:80%;
+    }
+
+    .gallery .gallery-element p{
+        font-size: 0.5rem;
+    }
+
+    .photo-gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .my-form h2{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 80vh;
+    }
+
+    .social{
+        
+        bottom:50px;
+        left:-25px;
+    }
+
+    .btn{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        margin:0;
+        height: 100vh;
+        padding: 0 1rem;
+    }
+    .hero{
+        padding:0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .hero img{
+        display: none;
+    }
+
+    .home{
+        background-image: url(./img/Backgrounds/heroBackground.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .photo-group{
+        display: none;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hero-text h1{
+        margin-top:1rem;
+        font-size: 3rem;
+    }
+
+    .logo{
+        width:20%;
+        
+    }
+
+    .logo p{
+        font-size: 1rem;
+    }
+
+    input .btn{
+        margin:0;
+    }
+
+    .hero-text h2{
+        font-size: 1rem;
+    }
+    
+ 
+
+    .hero-text p{
+        font-size: 0.8rem;
+    }
+
+    .hero-text img{
+        width:25%;
+    }
+
+    .hero-text .services-list li{
+        font-size: 0.9rem;
+    }
+
+    .hero-text .services-list{
+        width: 100vw;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-height: 50vh;
+    }
+
+    .hero-text .services-list ul{
+        margin:0;
+    }
+
+    .gallery{
+        padding:1rem 0;
+        max-height: 80vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:0.1rem;
+    }
+
+    .gallery .gallery-element{
+        width:100%;
+        height:100%;
+    }
+
+    .gallery .gallery-element p{
+        font-size: 0.5rem;
+    }
+
+    .photo-gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw;
+    }
+    .column{
+        flex: 75%;
+        max-width: 75%;
+    }
+
+    .my-form h2{
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 80vh;
+    }
+
+    .social{
+        
+        bottom:50px;
+        left:-25px;
+    }
+
+    .btn{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .hero-text h1{
+        font-size: 2rem;
+    }
+
+    .photo-group{
+        width:3rem;
+    }
+
+    .services-list li{
+        font-size: 1rem;
+    }
+
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
