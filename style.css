@@ -63,7 +63,6 @@ img{
 }
 
 .hero-text{
-    transform: translateY(5rem);
     height:70vh;
     display: flex;
     flex-direction: column;
