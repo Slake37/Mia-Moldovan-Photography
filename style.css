@@ -50,7 +50,7 @@ img{
     text-align: left;
     background-color: rgb(241, 13, 13);
     padding:1.5rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .top-nav, .hero img{
     display: none;
