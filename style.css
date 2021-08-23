@@ -49,7 +49,7 @@ img{
     align-items: left;
     text-align: left;
     background-color: rgb(241, 13, 13);
-    padding:1.5rem 1rem;
+    padding:1rem 1rem;
     font-size: 1rem;
 }
 .top-nav, .hero img{
@@ -57,7 +57,7 @@ img{
 }
 
 .hero{
-    height:80vh;
+    
     background-size: cover;
     background-position: center;
 }
