@@ -113,7 +113,8 @@ img{
 }
 
 .hero p{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 .footer{
@@ -133,8 +134,19 @@ li{
     
 }
 
+li i{
+    margin:0.5rem;
+}
+
 .footer-nav a:hover{
     color: rgb(241, 13, 13);
+}
+
+.footer-nav a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text li{
@@ -191,7 +203,7 @@ textarea{
 
 .gallery-element{
     margin: 1rem 0;
-    width:10rem;
+    width:16rem;
     height: 8rem;
     display: flex;
     justify-content: center;
@@ -208,3 +220,21 @@ textarea{
     text-align: center;
     padding:0.5rem 0;
 }
+
+.photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+  .column img {
+    margin-top: 0.5rem;
+    vertical-align: middle;
+    width: 100%;
+  }
