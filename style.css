@@ -181,3 +181,30 @@ textarea{
     font-size: 1.2rem;
     margin:0.5rem;
 }
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-element{
+    margin: 1rem 0;
+    width:10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery-element p{
+    text-align: bottom;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    width:100%;
+    text-align: center;
+    padding:0.5rem 0;
+}
