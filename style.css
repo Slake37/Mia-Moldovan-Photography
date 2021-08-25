@@ -298,6 +298,10 @@ textarea{
           width:100%;
           text-align: center;
       }
+
+      .my-form{
+        width:25rem;
+    }
   }
 
   @media screen and (min-width:425px){
