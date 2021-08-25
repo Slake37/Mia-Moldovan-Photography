@@ -56,7 +56,10 @@ img{
     justify-content: left;
     align-items: left;
     text-align: left;
-    background-color: rgb(241, 13, 13);
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding:1rem 1rem;
     font-size: 1rem;
 }
@@ -106,15 +109,18 @@ img{
 }
 
 .portfolio-btn {
-    max-width: 40%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 13, 13);
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     padding:0.5rem 0.8rem;
     font-size: 0.7rem;
     margin-top:1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
