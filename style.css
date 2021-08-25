@@ -8,6 +8,7 @@ body{
     width: 100vw;
     background: #000;
     color:#fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -46,6 +47,8 @@ img{
 }
 
 .logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
     position: absolute;
     top:0;
     display: flex;
@@ -89,7 +92,10 @@ img{
     opacity: 0.75;
 }
 .hero-text h1{
-    font-size: 1.5rem;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2rem;
     margin:2rem 0 2rem 0;
 }
 
@@ -128,6 +134,8 @@ img{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
 }
 
 .footer-nav ul{
@@ -152,6 +160,8 @@ li i{
 }
 
 .footer-nav a{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,10 +180,17 @@ li i{
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    width:100% important!;
+    box-sizing: border-box;
+    margin:2rem auto;
 }
 
 label{
     margin-top: 1rem;
+}
+
+input{
+    width:100%;
 }
 
 textarea{
@@ -195,7 +212,7 @@ textarea{
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    bottom:0;
+    bottom:2rem;
     right:0;
 }
 
