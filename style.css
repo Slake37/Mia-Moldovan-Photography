@@ -137,8 +137,9 @@ background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, F
 }
 
 .profile{
-    width:50%;
+    width:60%;
     display: block;
+    border-radius: 50% 50% 0 50%;
 }
 
 .hero p{
