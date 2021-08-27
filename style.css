@@ -139,7 +139,8 @@ background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, F
 .profile{
     width:60%;
     display: block;
-    border-radius: 50% 50% 0 50%;
+    border-radius: 50% 50% 10px 50%;
+    border:1px solid #fff;
 }
 
 .hero p{
@@ -212,11 +213,16 @@ label{
 input{
     width:100%;
     border-radius: 5px;
+    border:2px solid #fff;
+    outline: none;
+    padding:0.2rem;
 }
 
 textarea{
-    margin-top: 1rem;
     border-radius: 5px;
+    border:2px solid #fff;
+    outline: none;
+    padding:0.2rem;
 }
 
 .submit-btn{
